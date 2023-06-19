@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallex Project</title>
+    <style>
+
+        html,
+        body{
+            width: 100%;
+            margin:0;
+            font-size: 16px;
+            color: #666;  
+            font-family:"lato",sans-serif;
+            font-weight: 400;  
+          
+            line-height: 1.8em;
+        }
+
+        .pimg1{
+            background-image: url(image1.png);
+            min-height: 850px;
+        }
+        .pimg2{
+            background-image: url(image2.png);
+            min-height: 600px;
+        }
+        .pimg3{
+            background-image: url(image3.jpg);
+            min-height: 600px;
+        }
+        .pimg4{
+            background-image: url(image1.png);
+            min-height: 650px;
+            
+        }
+        .pimg1,
+        .pimg2,
+        .pimg3,
+        .pimg4{
+            position: relative;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .ptext{
+            position: absolute;
+            top: 40%;
+            width: 100%;
+            text-align: center;
+            color: rgb(226, 204, 204);
+            font-size: 27px;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+        }
+        .textbg{
+            background-color: rgba(18, 12, 12, 0.5);
+            color: #f0e0e0;
+            padding: 20px;
+        }
+
+        .section{
+            padding: 50px 80px;
+            text-align: center;
+        }
+
+        .section-light{
+            background-color: #0f0e0e;
+            color: #dad0d0;
+        }
+        .section-dark{
+            background-color: #282828;
+            color: #ddd;
+        }
+
+        @media (max-width: 700px) {
+            .section-light{
+            background-color: #342727;
+            color: #d4cb93;
+        }
+
+        .section-dark{
+            background-color: #312121;
+            color: #d4dba3;
+        }
+        .section{
+            padding: 40px 70px;
+            text-align: center;
+            /* height: 250px; */
+        }
+        .textbg{
+            background-color: rgba(18, 12, 12, 0.5);
+            color: #f0e0e0;
+            padding: 10px;
+        }
+        .ptext{
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            color: rgb(226, 204, 204);
+            font-size: 23px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        .pimg1{
+            background-image: url(image4.jpeg);
+            min-height: 700px;
+            
+        }
+        .pimg2{
+            background-image: url(image5.webp);
+            min-height: 600px;
+        }
+        .pimg3{
+            background-image: url(image6.jpg);
+            min-height: 600px;
+        }
+        .pimg4{
+            background-image: url(image4.jpeg);
+            min-height: 700px;
+            
+        }
+        .pimg1,
+        .pimg2,
+        .pimg3,
+        .pimg4{
+            position: relative;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    }
+
+    </style>
+</head>
+<body>
+    <section class="pimg1">
+        <div class="ptext">
+            <span class="textbg">Parallex World</span>
+        </div>
+    </section>
+    <section class="section section-light">
+        <h2>section One</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At qui facilis totam, 
+            veniam eaque modi laborum pariatur inventore id fuga ducimus, est provident 
+            perferendis cumque, soluta accusamus et fugiat molestias.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+             At qui facilis totam, veniam eaque modi laborum pariatur 
+              
+
+
+        </p>
+
+    </section>
+    <section class="pimg2">
+        <div class="ptext">
+            <span class="textbg">Explore Nature</span>
+        </div>
+    </section>
+    <section class="section section-dark">
+        <h2>section TWO</h2>
+        <p>Lorem ipsum dolor sit,
+             amet consectetur adipisicing elit. 
+             At qui facilis totam, veniam eaque modi laborum
+              pariatur inventore id fuga ducimus, est provident perferendis 
+              cumque, soluta accusamus et fugiat molestias.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+             At qui facilis totam, veniam eaque modi laborum pariatur 
+             
+              
+
+
+        </p>
+
+    </section>
+    <section class="pimg3">
+        <div class="ptext">
+            <span class="textbg">LOOK, DEEP INTO Nature</span>
+        </div>
+    </section>
+    <section class="section section-light">
+        <h2>section Three</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+             At qui facilis totam, veniam eaque modi laborum pariatur 
+             inventore id fuga ducimus, est provident perferendis cumque,
+              soluta accusamus et fugiat molestias.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+             
+
+
+        </p>
+
+    </section>
+    <section class="pimg4">
+        <div class="ptext">
+            <span class="textbg">VIKKI G RATHOD</span>
+        </div>
+    </section>
+    
+</body>
+</html>
